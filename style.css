@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    display: grid;
+    background-color: brown;
+}
+nav ul{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    list-style: none;
+}
+nav ul li {
+    display: grid;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    padding: 10px 8px;
+    color: brown;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
